@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>Convert Numbers</h1>
+            <div class="spans">
+                <span>Decimal</span>
+                <span>Binary</span>
+                <span>Hexadecimal</span>
+                <span>Octal</span>
+            </div>
+        </div>
+        <div class="user-input">
+            <form action="" class="form" id="form">
+                <div class="form-group select-option">
+                    <label for="from">From : </label>
+                    <select name="from" id="from">
+                        <option value="dec">Decimal</option>
+                        <option value="bin">Binary</option>
+                        <option value="hex">Hexadecimal</option>
+                        <option value="oct">Octal</option>
+                    </select>
+                    <label for="to">To : </label>
+                    <select name="to" id="to">
+                        <option value="dec">Decimal</option>
+                        <option value="bin" selected>Binary</option>
+                        <option value="hex">Hexadecimal</option>
+                        <option value="oct">Octal</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="number" id="fromNumber" placeholder="Enter number">
+                    <span id="clearInput">&#128472;</span>
+                </div>
+                <button type="submit" id="convert">Convert</button>
+            </form>
+            <div class="result">
+                Result :
+                <div id="result">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/Conversion.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
