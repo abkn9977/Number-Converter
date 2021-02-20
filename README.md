@@ -1,3 +1,3 @@
 # Number-Converter
 
-## This version only supports whole number for now
+## This version only supports whole numbers for now
