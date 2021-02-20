@@ -1,2 +1,3 @@
 # Number-Converter
-Simple number converter app using vanilla javascript
+
+## This version only supports whole number for now
